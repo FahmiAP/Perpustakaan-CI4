@@ -24,4 +24,8 @@ class Home extends BaseController
     {
         return view('pages/daftar');
     }
+    public function buku(): string
+    {
+        return view('pages/crud');
+    }
 }
